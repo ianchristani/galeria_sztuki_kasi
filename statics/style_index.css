@@ -42,7 +42,7 @@ a, i{
 /* navbar */
 #navbar{
     padding:10px;
-    margin: 10px auto;
+    margin: 20px auto;
 }
 
 #navbar a{
@@ -57,9 +57,9 @@ a, i{
 
 /* main image */
 .main-image{
-    height:400px;
-    background-image: url(tempimage1.jpg);
-    margin-bottom: 30px;
+    height:600px;
+    background-image: url(smok_jonski.jpg);
+    margin-bottom: 60px;
     position: relative;
 }
 
@@ -73,23 +73,78 @@ a, i{
 
 /* galery */
 #img2{
-    background-image: url(tempimage2.jpg);
+    background-image: url(kon.jpg);
 }
 
 #img3{
-    background-image: url(tempimage3.jpg);
+    background-image: url(Kwiatywwazonie.jpg);
+    
 }
 
 #img4{
-    background-image: url(tempimage4.jpg);
+    background-image: url(Kotzdziwnymogonem.jpg);
 }
 
 #img5{
-    background-image: url(tempimage5.jpg);
+    background-image: url(Próbynarysowanasylwetki-perspektywa.jpg);
 }
 
-#gallery-container h3{
+#img6{
+    background-image: url(Patronus.jpg);
+}
+
+#img7{
+    background-image: url(Seria-Catra-Melong-Catadora.jpg);
+}
+
+#img8{
+    background-image: url(Seria-Catra-Melong-Catadora1.jpg);
+}
+
+#img9{
+    background-image: url(Plomykowka.jpg);
+}
+
+#img10{
+    background-image: url(luna.jpg);
+}
+
+#img11{
+    background-image: url(slon.jpg);
+}
+
+#img12{
+    background-image: url(Proby-narysowania-sylwetki-kota.jpg);
+}
+
+#img13{
+    background-image: url(Przyjazn.jpg);
+}
+
+#img14{
+    background-image: url(Maskonuriszczesliwypomaranczowykamien.jpg);
+}
+
+#img15{
+    background-image: url(ProbyrobieniaotutorialzPinterest.jpg);
+}
+
+#img16{
+    background-image: url(Catra2.jpg);
+}
+
+#gallery-container h6{
+    text-align: center;    
+}
+
+#gallery-container h2{
     text-align: center;
+    margin-bottom: 60px;
+}
+
+.secondary-color{
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 #gallery-container h1,
@@ -99,14 +154,14 @@ a, i{
 }
 
 .small-image-container{
-    height:250px;
+    height:500px;
     margin-bottom:20px;
 }
 
 /* footer */
 footer{
     border-top:1px solid #CCC;
-    height:250px;
+    height:5px;
     padding: 30px;
 }
 
@@ -115,7 +170,7 @@ footer i{
 }
 
 #social-icons-container{
-    padding: 25px;
+    padding: 20px;
 }
 
 #social-icons-container div{
@@ -124,9 +179,14 @@ footer i{
 
 footer p{
     text-align: center;
-    margin:20px;
+    margin:5px;
 }
 
 a:hover i{
     color:#c1b696;
+}
+
+/* about me */
+#aboutme p{
+    text-align: center;
 }
